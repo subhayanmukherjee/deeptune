@@ -7,3 +7,6 @@ Please cite the below [paper](https://doi.org/10.1007/978-3-030-27202-9_10) if y
 *S. Mukherjee, N. K. Kottayil, X. Sun, and I. Cheng, “CNN-Based Real-Time Parameter Tuning for Optimizing Denoising Filter Performance,” in F. Karray, A. Campilho, A. Yu (eds) Image Analysis and Recognition, ICIAR 2019, Lecture Notes in Computer Science, Springer International Publishing, vol 11662, pp. 112–125.*
 
 ## Guidelines
+
+1. Build the training dataset by running the [dataset script](https://github.com/subhayanmukherjee/deeptune/blob/master/create_assorted_dataset_LNET.py) create_assorted_dataset_LNET.py, and setting *train = True* inside the script. The script allows you to source training images files with two different extensions from two folders, similar to how we do it in our paper.
+2. To use the [GPU implementation of BM3D](https://github.com/DawyD/bm3d-gpu), as in our [paper](https://doi.org/10.1007/978-3-030-27202-9_10), set *bm3d_cpu = False* inside the [dataset script](https://github.com/subhayanmukherjee/deeptune/blob/master/create_assorted_dataset_LNET.py) and set the path to your compiled BM3D-GPU binary.
