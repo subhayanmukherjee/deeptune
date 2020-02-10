@@ -4,7 +4,7 @@ This project explores a new direction in explainable Artificial Intelligence (AI
 
 Please cite the below [paper](https://doi.org/10.1007/978-3-030-27202-9_10) if you use the code in its original or modified form:
 
-*S. Mukherjee, N. K. Kottayil, X. Sun, and I. Cheng, “CNN-Based Real-Time Parameter Tuning for Optimizing Denoising Filter Performance,” in F. Karray, A. Campilho, A. Yu (eds) Image Analysis and Recognition, ICIAR 2019, Lecture Notes in Computer Science, Springer International Publishing, vol 11662, pp. 112–125.*
+*S. Mukherjee, N. K. Kottayil, X. Sun, and I. Cheng, “CNN-based Real-Time Parameter Tuning for Optimizing Denoising Filter Performance,” in F. Karray, A. Campilho, A. Yu (eds) Image Analysis and Recognition, ICIAR 2019, Lecture Notes in Computer Science, Springer International Publishing, vol 11662, pp. 112–125.*
 
 ## Guidelines
 
